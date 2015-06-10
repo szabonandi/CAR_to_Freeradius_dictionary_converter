@@ -1,0 +1,229 @@
+[ /Radius/Advanced/Attribute Dictionary/Vendor-Specific/Vendors/MagyarTelekom/SubAttribute Dictionary ]
+    Entries 1 to 32 from 32 total entries
+    Current filter: <all>
+
+    MT-ACCESS-TYPE/
+	Name = MT-ACCESS-TYPE
+	Description = "Magyar Telekom Access technology type from AAA1 (NSP), like: ADSL or VDSL"
+	SubAttribute = 79
+	Type = string
+	Min = 0
+	Max = 10
+    MT-ADDITIONAL-ANNOUNCEMENT/
+	Name = MT-ADDITIONAL-ANNOUNCEMENT
+	Description = "Magyar Telekom marketing announcement"
+	SubAttribute = 63
+	Type = string
+	Min = 0
+	Max = 253
+    MT-AUTHE-REQTYPE/
+	Name = MT-AUTHE-REQTYPE
+	Description = "Magyar Telekom 0:registration, 1:call-setup, 2:reauthentication"
+	SubAttribute = 56
+	Type = uint32
+	Min = 0
+	Max = 2
+    MT-CGPA/
+	Name = MT-CGPA
+	Description = "Magyar Telekom PSTN calling number without modification"
+	SubAttribute = 51
+	Type = string
+	Min = 0
+	Max = 40
+    MT-CREDIT/
+	Name = MT-CREDIT
+	Description = "Magyar Telekom prepaid user balance (financial)"
+	SubAttribute = 65
+	Type = string
+	Min = 0
+	Max = 40
+    MT-CURRENCY/
+	Name = MT-CURRENCY
+	Description = "Magyar Telekom 0:HUF, 1:EUR"
+	SubAttribute = 66
+	Type = uint32
+	Min = 0
+	Max = 2
+    MT-DOMAIN/
+	Name = MT-DOMAIN
+	Description = "Magyar Telekom source system [IMS|PSTN]"
+	SubAttribute = 53
+	Type = string
+	Min = 0
+	Max = 40
+    MT-EXPIRE-DATE/
+	Name = MT-EXPIRE-DATE
+	Description = "Magyar Telekom exp. date in YYYYMMDD format"
+	SubAttribute = 68
+	Type = string
+	Min = 0
+	Max = 40
+    MT-FIRST-CALL-FLAG/
+	Name = MT-FIRST-CALL-FLAG
+	Description = "Magyar Telekom 0:registered, 1:first registration"
+	SubAttribute = 55
+	Type = uint32
+	Min = 0
+	Max = 1
+    MT-FLAG-CEAME/
+	Name = MT-FLAG-CEAME
+	Description = "Magyar Telekom 0:do not send, 1:send voice message"
+	SubAttribute = 67
+	Type = uint32
+	Min = 0
+	Max = 2
+    MT-GRANTED-FLAG/
+	Name = MT-GRANTED-FLAG
+	Description = "Magyar Telekom last period flag"
+	SubAttribute = 62
+	Type = uint32
+	Min = 0
+	Max = 1
+    MT-GRANTED-TIME/
+	Name = MT-GRANTED-TIME
+	Description = "Magyar Telekom interim interval or allowed session time based on granted algorithm"
+	SubAttribute = 61
+	Type = uint32
+	Min = 0
+	Max = 2222222
+    MT-LANGUAGE-ID/
+	Name = MT-LANGUAGE-ID
+	Description = "Magyar Telekom language ID"
+	SubAttribute = 64
+	Type = uint32
+	Min = 0
+	Max = 255
+    MT-LINE-SERVICE/
+	Name = MT-LINE-SERVICE
+	Description = "Magyar Telekom Registered service for the line in AAA1 (NSP), like: FON or IPTV or VOIP or HA, multiple instances allowed"
+	SubAttribute = 80
+	Type = string
+	Min = 0
+	Max = 10
+    MT-ORIGINATING-ID/
+	Name = MT-ORIGINATING-ID
+	Description = "Magyar Telekom SS originating ID"
+	SubAttribute = 3
+	Type = string
+	Min = 0
+	Max = 40
+    MT-PERMISSION-ACCOUNT-QUERY/
+	Name = MT-PERMISSION-ACCOUNT-QUERY
+	Description = "Magyar Telekom 0:not allowed, 1:allowed"
+	SubAttribute = 71
+	Type = uint32
+	Min = 0
+	Max = 1
+    MT-PERMISSION-LANGUAGE-CHANGE/
+	Name = MT-PERMISSION-LANGUAGE-CHANGE
+	Description = "Magyar Telekom 0:not allowed, 1:allowed"
+	SubAttribute = 72
+	Type = uint32
+	Min = 0
+	Max = 1
+    MT-PERMISSION-PIN-CHANGE/
+	Name = MT-PERMISSION-PIN-CHANGE
+	Description = "Magyar Telekom 0:not allowed, 1:allowed"
+	SubAttribute = 70
+	Type = uint32
+	Min = 0
+	Max = 1
+    MT-PERMISSION-RECHARGE/
+	Name = MT-PERMISSION-RECHARGE
+	Description = "Magyar Telekom 0:not allowed, 1:allowed"
+	SubAttribute = 74
+	Type = uint32
+	Min = 0
+	Max = 1
+    MT-PERMISSION-SERVICE-CENTER/
+	Name = MT-PERMISSION-SERVICE-CENTER
+	Description = "Magyar Telekom 0:not allowed, 1:allowed"
+	SubAttribute = 73
+	Type = uint32
+	Min = 0
+	Max = 1
+    MT-PROFILE-ID/
+	Name = MT-PROFILE-ID
+	Description = "Magyar Telekom AAA profile ID (rating profile)"
+	SubAttribute = 58
+	Type = uint32
+	Min = 0
+	Max = 2222222
+    MT-SERVICE-ACCESS-NUMBER/
+	Name = MT-SERVICE-ACCESS-NUMBER
+	Description = "Magyar Telekom PSTN dial-in number"
+	SubAttribute = 54
+	Type = string
+	Min = 0
+	Max = 40
+    MT-SERVICE-CENTER-NUMBER/
+	Name = MT-SERVICE-CENTER-NUMBER
+	Description = "Magyar Telekom calling number of the helpdesk"
+	SubAttribute = 75
+	Type = string
+	Min = 0
+	Max = 40
+    MT-SERVICE-ID/
+	Name = MT-SERVICE-ID
+	Description = "Magyar Telekom service ID"
+	SubAttribute = 10
+	Type = uint32
+	Min = 0
+	Max = 255
+    MT-SSPID/
+	Name = MT-SSPID
+	Description = "Magyar Telekom PSTN node identifier"
+	SubAttribute = 57
+	Type = string
+	Min = 0
+	Max = 40
+    MT-TERMINATING-ID/
+	Name = MT-TERMINATING-ID
+	Description = "Magyar Telekom SS terminating ID"
+	SubAttribute = 4
+	Type = string
+	Min = 0
+	Max = 40
+    MT-UID/
+	Name = MT-UID
+	Description = "Magyar Telekom DSL User ID"
+	SubAttribute = 1
+	Type = string
+	Min = 0
+	Max = 253
+    MT-User-Status/
+	Name = MT-User-Status
+	Description = "Magyar Telekom User status"
+	SubAttribute = 69
+	Type = uint32
+	Min = 0
+	Max = 255
+    MT-VSA/
+	Name = MT-VSA
+	Description = "Magyar Telekom MT-VSA 2 Cisco-AVPair"
+	SubAttribute = 8
+	Type = string
+	Min = 0
+	Max = 253
+    MT-WARNING-CREDIT/
+	Name = MT-WARNING-CREDIT
+	Description = "Magyar Telekom sent only if the limit is reached"
+	SubAttribute = 77
+	Type = string
+	Min = 0
+	Max = 40
+    MT-WARNING-PERIOD/
+	Name = MT-WARNING-PERIOD
+	Description = "Magyar Telekom sent only if the limit is reached (in days)"
+	SubAttribute = 76
+	Type = string
+	Min = 0
+	Max = 40
+    MTisLNS/
+	Name = MTisLNS
+	Description = "Magyar Telekom Radius attribute for modified BVA session management"
+	SubAttribute = 78
+	Type = uint32
+	Min = 0
+	Max = 253
+200 OK
