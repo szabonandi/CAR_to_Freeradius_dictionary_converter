@@ -1,1 +1,2 @@
 ENUM atrrib tipusokat is bele kell fejleszteni
+Bazso fogja remélhetőleg megcsinálni
